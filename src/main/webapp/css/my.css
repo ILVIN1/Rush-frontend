@@ -1,0 +1,56 @@
+.players-table {
+    border: 1px solid black;
+
+}
+.header-cell{
+    border: 1px solid black;
+    min-width: 80px;
+    padding: 5px;
+}
+.cell{
+    border: 1px solid;
+}
+.cell-smaall {
+    min-width: auto;
+}
+.active-pagination-button{
+    color: blue;
+}
+.pagination-button button{
+    color: wheat;
+    margin: 5px;
+    padding: 5px;
+}
+.edit-img, delete-img {
+    width: 40px;
+    height: 40px;
+
+}
+.hidden {
+    visibility: hidden;
+}
+.accounts-per-page-wrapper{
+    margin: 20px 0;
+}
+.create-form{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 300px;
+    box-sizing: border-box;
+}
+.create-field{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-bottom: 10px;
+}
+.save-button{
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 15px;
+    color: white;
+    background-color: blue;
+    width: 100px;
+}
